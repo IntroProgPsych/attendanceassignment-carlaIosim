@@ -1,3 +1,7 @@
-# EX05 — Loops
-# Ask the user for an integer n.
-# Using a loop, print all even numbers from 0 to n (inclusive), each on a new line.
+n = int(input("Enter an integer n: "))
+
+# Loop from 0 to n (inclusive, so we use n + 1)
+for i in range(n + 1):
+    # Check if the number is even
+    if i % 2 == 0:
+        print(i)
